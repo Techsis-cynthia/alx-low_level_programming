@@ -11,7 +11,7 @@ int main(void)
 
 	for (n = 48; n <= 9; n++)
 	{
-		outchar(n + 48);
+		putchar(n + 48);
 	}
 	putchar('\n');
 	return (0);
