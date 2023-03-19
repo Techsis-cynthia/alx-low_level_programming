@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - smile in a mirror
+ * main - A program that prints the lowercase alphabet in reverse.
  *
  * Return: Always 0 (success)
 */
