@@ -14,7 +14,7 @@ int main(void)
 		{
 			for (l = 50; l < 58; l++)
 			{
-				if (1 > m;
+				if (1 > m);
 			{
 				putchar(n);
 				putchar(m);
@@ -30,5 +30,3 @@ int main(void)
 	putchar('\n');
 	return (0);
 }
-
-

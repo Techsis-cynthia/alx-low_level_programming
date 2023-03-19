@@ -1,18 +1,21 @@
 #include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
 /**
- * main - Prints numbers from 0 to 10
- *
+ * main - A program that prints all single digit numbers of base 10
+ * starting from 0, followed by a new line
+ * 
  * Return: Always 0 (success)
 */
 int main(void)
-{
-	int n;
 
-	for (n = 48; n <= 10; n++)
-	{
-		putchar(n + 48);
-	}
+{
+	int d;
+	
+	for (d = '0'; d <= '9'; d++)
+	putchar(d);
 	putchar('\n');
+	
 	return (0);
 }
