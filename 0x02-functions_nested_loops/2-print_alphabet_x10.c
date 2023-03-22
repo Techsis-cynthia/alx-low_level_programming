@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - Entryy point 
+ * main - Entry point
  *
  * Description - prints 10 times the alphabet, in lowercase
  * followed by a new line
