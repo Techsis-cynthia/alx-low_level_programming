@@ -1,28 +1,32 @@
-#include "main.h"
+#include "holberton.h"
 
 /**
- * print_last_digit: - Prints the last digit of a number
- * starting from 00:00 to 23:59
+ * jack_bauer - Prints the minutes of a day
+ *
+ * Return: no return
  */
 void jack_bauer(void)
 {
-	int i, j
-	
-	i = 0;
-	
-	while (i < 24)
+	int a, b, c, d;
+
+	for (a = 48; a <= 50; a++)
 	{
-		j = 0;
-		while (j < 60)
+		for (b = 48; b <= 57; b++)
 		{
-			_putchar((i / 10) + '0');
-			_putchar((i % 10) + '0');
-			_putchar(':');
-			_putchar((j / 10) + '0');
-			_putchar((j % 10) + '0');
-			_putchar('\n');
-			j++;
+			for (c = 48; c <= 53; c++)
+			{
+				for (d = 48; d <= 57; d++)
+				{
+					if (a >= 50 && b >= 52)
+						break;
+					_putchar(a);
+					_putchar(b);
+					_putchar(58);
+					_putchar(c);
+					_putchar(d);
+					_putchar('\n');
+				}
+			}
 		}
-		i++;
 	}
 }

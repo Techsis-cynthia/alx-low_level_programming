@@ -1,20 +1,18 @@
+#include <stdio.h>
+#include <unistd.h>
 #include "main.h"
 /**
- * main - Entry point
- * Return: Always 0
+ * main - entry point
+ *
+ * Description: program that prints _putchar, followed by a new line
+ *
+ * Return: always 0 when successful
 */
-
 int main(void)
-
 {
-	_putchar('_');
-	_putchar('p');
-	_putchar('u');
-	_putchar('t');
-	_putchar('c');
-	_putchar('h');
-	_putchar('a');
-	_putchar('r');
-	_putchar('\n');
+	char c[] = "_putchar";
+
+	write(1, &c, 8);
+	putchar('\n');
 	return (0);
 }
