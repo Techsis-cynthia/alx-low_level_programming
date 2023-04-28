@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * main - check the code
+ * main - this will check the code
  *
- * Return: Always 0.
+ * Return: This always returns  0.
  */
 int main(void)
 {
@@ -16,7 +16,9 @@ int main(void)
 	size_t n;
 
 	head = &hello;
+
 	new = malloc(sizeof(list_t));
+
 	if (new == NULL)
 	{
 		printf("Error\n");
@@ -26,6 +28,7 @@ int main(void)
 	new->len = 5;
 	new->next = head;
 	head = new;
+
 	n = print_list(head);
 	printf("-> %lu elements\n", n);
 
@@ -36,5 +39,6 @@ int main(void)
 	printf("-> %lu elements\n", n);
 
 	free(new);
+
 	return (0);
 }

@@ -4,9 +4,9 @@
 #include "lists.h"
 
 /**
- * main - check the code
+ * main - this checks the main code
  *
- * Return: Always 0.
+ * Return: this always gives 0.
  */
 int main(void)
 {
@@ -35,12 +35,16 @@ int main(void)
 	add_node_end(&head, "Ntuj");
 	add_node_end(&head, "Philip");
 	add_node_end(&head, "Richard");
+
 	add_node_end(&head, "Samantha");
 	add_node_end(&head, "Stuart");
+
 	add_node_end(&head, "Swati");
 	add_node_end(&head, "Timothy");
 	add_node_end(&head, "Victor");
+
 	add_node_end(&head, "Walton");
+
 	print_list(head);
 	return (0);
 }
